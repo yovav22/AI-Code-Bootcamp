@@ -1,0 +1,46 @@
+{
+    "headerTitle": "AI-CODE-BOOTCAMP",
+    "heroTitle": "🚀 Let AI write the code – you just bring the idea. 🚀",
+    "heroSubtitle": "Tired of being afraid to code?\nIn this course, you'll learn how to build software, websites, automations and bots – with zero coding!",
+    "projectsHeader": "What Will We Build?",
+    "projects": [
+      {
+        "title": "💡 \"One Less Form\"",
+        "description": "An automated bot that fills in forms for you."
+      },
+      {
+        "title": "🌐 \"Five-Minute Website\"",
+        "description": "A smart site generator that creates a webpage at the click of a button."
+      },
+      {
+        "title": "🤖 \"Your Virtual Assistant\"",
+        "description": "A Telegram bot that answers questions and performs tasks on your behalf."
+      },
+      {
+        "title": "📄 \"Effortless Office\"",
+        "description": "A tool that drafts contracts, reports, and documents automatically."
+      },
+      {
+        "title": "📊 \"Excel That Gets You\"",
+        "description": "An intelligent system for data analysis and insights."
+      },
+      {
+        "title": "🌍 \"Super Translator\"",
+        "description": "An advanced translation service that preserves meaning and style."
+      },
+      {
+        "title": "✍️ \"Dream Writer\"",
+        "description": "A generator for stories, scripts, and social media posts."
+      },
+      {
+        "title": "🗓️ \"Meetings, No Headaches\"",
+        "description": "A personal assistant for scheduling your calendar and sending reminders."
+      }
+    ],
+    "contactHeader": "Ready to Join?",
+    "contactBody": "Seats are limited – don't miss the chance to dive into the AI world without writing a line of code!",
+    "whatsappButton": "Contact Me on WhatsApp",
+    "emailButton": "Send Me an Email",
+    "footerText": "All rights reserved."
+  }
+  
