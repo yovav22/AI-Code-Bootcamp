@@ -4,7 +4,7 @@ import { Box, Typography, Container, Button } from '@mui/material';
 export default function ContactSection({ text }) {
   // Replace with your actual WhatsApp link using the phone number:
   // Make sure to include the country code after 'wa.me/'
-  const whatsappLink = 'https://wa.me/97256698200?text=Hello! I would like more info.';
+  const whatsappLink = 'https://wa.me/972586698200?text=Hello! I would like more info.';
   
   // Use mailto: with your email for direct emailing
   const emailAddress = 'mailto:yovava22@gmail.com?subject=AI-CODE-BOOTCAMP Inquiry';
