@@ -14,7 +14,6 @@ import {
   AccordionDetails
 } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { styled } from '@mui/system';
 
 export default function CourseHighlightsSection({ text }) {
   const ch = text.courseHighlights; // Shorthand for the curated Hebrew text
@@ -27,14 +26,6 @@ export default function CourseHighlightsSection({ text }) {
     'בניית רובוט ממלא טפסים',
     'אוטומציות מתקדמות',
     'טעימות בינה מלאכותית נוספות'
-  ];
-
-  // Example images (just placeholders). Replace with your actual image URLs.
-  const projectImages = [
-    'https://via.placeholder.com/400x250/512d6d/FFFFFF?text=Robot+Automation',
-    'https://via.placeholder.com/400x250/660066/FFFFFF?text=Website+Generator',
-    'https://via.placeholder.com/400x250/36006B/FFFFFF?text=Telegram+Bot',
-    'https://via.placeholder.com/400x250/5f0067/FFFFFF?text=Auto+Docs'
   ];
 
   return (
