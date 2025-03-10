@@ -3,6 +3,33 @@
     "heroTitle": "🚀 Let AI write the code – you just bring the idea. 🚀",
     "heroSubtitle": "Tired of being afraid to code?\nIn this course, you'll learn how to build software, websites, automations and bots – with zero coding!",
     "projectsHeader": "What Will We Build?",
+    "courseHighlights": {
+        "intro": [
+          "Ever dreamed of building smart tools but were afraid of coding?",
+          "Want to create websites, automations, and bots without writing a single line of code?",
+          "This course is perfect for you! We'll learn how to let AI write code for us, so you can develop projects from scratch, no previous experience required."
+        ],
+        "eightSessionsTitle": "🔥 8 Sessions | 8 Real Projects | 100% Hands-On",
+        "eightSessionsDescription": "In each session, we'll build a complete project—from the idea stage to a working software—using ChatGPT as our development and problem-solving partner.",
+    
+        "audienceTitle": "🎯 Who Is It For?",
+        "audienceBullets": [
+          "✔️ Anyone who wants to develop but is put off by complex programming languages",
+          "✔️ Entrepreneurs, business owners, or anyone who wants to build smart tools without hiring developers"
+        ],
+    
+        "benefitsTitle": "💥 What You'll Gain by the End",
+        "benefitsBullets": [
+          "🚀 Learn how to leverage AI for software development—even with no coding background",
+          "🌟 Build real projects you can use right away",
+          "💡 Turn your own ideas into reality with the power of AI"
+        ],
+        
+        "closingLines": [
+          "⏳ The future belongs to those who can harness AI—be one of them!",
+          "📲 For registration or more info: [Add your link/contact here]"
+        ]
+    },
     "projects": [
       {
         "title": "💡 \"One Less Form\"",

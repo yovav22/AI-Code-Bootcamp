@@ -1,3 +1,4 @@
+// App.js
 import React, { useState, useMemo } from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import { CacheProvider } from '@emotion/react';
@@ -12,27 +13,20 @@ import ProjectsSection from './components/ProjectsSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
+// The new curated section
+import CourseHighlightsSection from './components/CourseHighlightsSection';
+
 function App() {
-  // Language: 'he' or 'en'
   const [locale, setLocale] = useState('he');
   
-  // Determine direction based on language
   const direction = locale === 'he' ? 'rtl' : 'ltr';
-
-  // Create theme and RTL cache
   const theme = useMemo(() => getAppTheme(direction), [direction]);
   const cacheOptions = useMemo(() => getCacheOptions(direction), [direction]);
   const cache = createCache(cacheOptions);
-
-  // Toggle language
-  const toggleLocale = () => {
-    setLocale((prev) => (prev === 'he' ? 'en' : 'he'));
-  };
-
-  // Get localized texts
+  
+  const toggleLocale = () => setLocale((prev) => (prev === 'he' ? 'en' : 'he'));
+  
   const t = messages[locale];
-
-  // Set body direction for the entire document
   document.body.dir = direction;
 
   return (
@@ -40,6 +34,10 @@ function App() {
       <ThemeProvider theme={theme}>
         <Header locale={locale} onToggleLocale={toggleLocale} text={t} />
         <HeroSection text={t} />
+
+        {/* Curated Course Highlights */}
+        <CourseHighlightsSection text={t} />
+
         <ProjectsSection text={t} />
         <ContactSection text={t} />
         <Footer text={t} />
